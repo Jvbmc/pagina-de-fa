@@ -1,0 +1,150 @@
+* {
+  font-family: "dynapuff";
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  display: flex;
+}
+
+.pri {
+  position: relative;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.fundo {
+  height: 100vh;
+  min-width: 100%;
+  max-width: 100vw;
+  position: absolute;
+  background-color: black;
+  opacity: 0.7;
+  z-index: 5;
+}
+
+.ope {
+  z-index: -1;
+  position: absolute;
+  height: 100vh;
+  max-width: 100%;
+}
+
+video {
+  max-width: 100%;
+}
+
+.logo {
+  z-index: 10;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo > img {
+  height: 500px;
+  z-index: 20;
+}
+
+.seg {
+  display: flex;
+  background-color: #c81c3c;
+  min-height: 100vh;
+}
+
+.divisao {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.finn {
+  max-width: 50vw;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.finn > img {
+  height: 80vh;
+}
+
+.jake {
+  max-width: 50vw;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.jake > img {
+  height: 50vh;
+}
+.terc {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  min-height: 100vh;
+}
+
+.quar {
+  justify-content: center;
+  text-align: center;
+  background: #320087;
+  background: linear-gradient(
+    153deg,
+    rgba(50, 0, 135, 1) 36%,
+    rgba(111, 68, 184, 1) 70%,
+    rgba(204, 197, 219, 1) 100%
+  );
+  min-height: 100vh;
+}
+
+.fonte {
+  font-size: 90px;
+  margin: 0;
+  padding: 0;
+}
+
+.texto {
+  align-items: center;
+  max-width: 250px;
+  line-height: 150%;
+}
+
+.sinop {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  max-width: 50vw;
+}
+
+.sinop > p {
+  color: yellow;
+  max-height: 100vh;
+  line-height: 170%;
+}
+
+.final {
+  margin-right: 30px;
+  max-height: 75vh;
+}
+
+.textinhu > p {
+  max-width: 50vw;
+  font-size: 30px;
+  font-family: "Poppins";
+  color: aliceblue;
+}
+.textinhu > h1 {
+  font-family: "Poppins";
+  color: aliceblue;
+  font-size: 50px;
+}
