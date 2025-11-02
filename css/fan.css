@@ -27,14 +27,14 @@ section {
 }
 
 .ope {
-  z-index: -1;
   position: absolute;
+  width: 100%;
   height: 100vh;
   max-width: 100%;
 }
 
 video {
-  max-width: 100%;
+  width: 100%;
 }
 
 .logo {
@@ -147,4 +147,86 @@ video {
   font-family: "Poppins";
   color: aliceblue;
   font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .logo > img {
+    height: 30vh;
+  }
+
+  .ope {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ope > video {
+    overflow: hidden;
+    min-width: 1920px;
+  }
+
+  .terc {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .final {
+    width: 50vw;
+  }
+
+  .sinop {
+    text-align: center;
+    font-size: 11px;
+    width: 80vw;
+    max-height: 80vw;
+    margin-bottom: 30px;
+  }
+
+  .finn > img {
+    height: 30vh;
+  }
+
+  .jake > img {
+    height: 22vh;
+  }
+
+  .finn {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: start;
+  }
+
+  .finn > img {
+    align-self: center;
+  }
+
+  .tx1 > p {
+    display: none;
+  }
+
+  .jake {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: end;
+  }
+
+  .jake > img {
+    align-self: center;
+  }
+
+  .tx2 > p {
+    display: none;
+  }
+
+  .textinhu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .textinhu > p {
+    text-align: center;
+    font-size: 16px;
+  }
 }
